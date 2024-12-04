@@ -1,16 +1,29 @@
 # Raizel
 for u
-<! doctype html>
-chtml lang="en">
-‹head>
-‹meta charset="UTF-8">
-‹meta name="viewport" content="width=device-width, initial-scale=1.0"> ‹title>Message for you</title> <link rel="stylesheet" href="style.css"> </head> ‹body> <div class="wrapper">
-<h2 class="question">What? That's okay</h2> <h2 class="question">If I'm Talking Seriously?</h2> <img class="img" alt="img"
-src="https://raw.githubusercontent.com/DzarelDeveloper/Img/main/AskCrush.png">
-‹div class="btn-group"> ‹button class="yes-btn">Yes</button> ‹button class="no-
-btn">No</button>
-</div>
-</ div>
-‹script src="script.js">/script>
-</body> </html>
+const wrapper = document. querySelector("
+const
+question = documentaquerseer question) ;
+const
+img = document. querySelector(".img");
+
+const yesBtn = document. querySelector ("-yes-btn");
+
+const noBtn = document. querySelector("-no-btn" );
+
+const secondQuestion = document querySelectorAll(" question" )[1];
+yesBtn.addEventListener("click"
+, ( = 1
+question. innerHTML = "I like you";
+secondQuestion. innerHTML = "How about you?";
+img. src =
+1)https://raw.githubusercontent.com/DzarelDeveloper/Img/main/AskCrushl.png";
+noBtn. addEventListener ("mouseover", ( ) => {
+const noBtnRect = noBtn.getBoundingClientRect();
+const maxx = window.innerWidth - noBtnRect.width;
+const maxY = window. innerHeight - noBtnRect.height;
+const random = Math. floor (Math. random() * maxX);
+const randomY = Math. floor (Math. random() * maxY);
+noBtn.style.left = randomX + "px";
+noBtn.style.top = randomY + "px";
+}) ;
 d@codesphered01010
